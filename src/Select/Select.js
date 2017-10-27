@@ -1,9 +1,4 @@
 import React from 'react'
-
-if(typeof window !== 'undefined') {
-  require('@webcomponents/shadydom');
-}
-
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
 import enhanceWithClickOutside from 'react-click-outside'
