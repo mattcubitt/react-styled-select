@@ -1,6 +1,8 @@
 import React from 'react'
 
-require('@webcomponents/shadydom');
+if(typeof window !== 'undefined') {
+  require('@webcomponents/shadydom');
+}
 
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
